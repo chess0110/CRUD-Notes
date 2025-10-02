@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+
+#main {
+    display: flex;
+    background-color: red;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.editingSide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    background-color: #22262A;
+}
+
+.editingHead {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    gap: 5px;
+
+}
+
+.editingSide .editingHead input {
+    position: relative;
+    color: white;
+    width: 99%;
+    padding: 0.5em 10px 0.5em 10px;
+    font-family: cinzel,verdana;
+    font-weight: bold;
+    font-size: 2em;
+    border: 0px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #22262A;
+    box-shadow: 0px 5px 20px 0px rgba(45,50,55,0.9);
+    outline: none;
+}
+
+.editingBtn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+.editingBtn button {
+    font-family: cinzel, verdana;
+    font-size: 1em;
+    width: 40%;
+    padding: 4px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #303841;
+    color: white;
+}
+
+.editingBtn button:hover {
+    font-weight: bold;
+}

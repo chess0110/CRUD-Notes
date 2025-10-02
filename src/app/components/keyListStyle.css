@@ -1,0 +1,74 @@
+.keysContainer {
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    background-color: #22262A;
+    align-items: center;
+    overflow: auto;
+    scrollbar-width:thin;
+    scrollbar-color: #22262A #4F565E;
+    padding-bottom: 1em;
+    height: 100vh;
+}
+.keysContainer > ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8em;
+    list-style: none;
+    width: 100%;
+    height: auto;
+    background-color: #4F565E;
+    border-radius: 10px;
+    padding: 5px 0px 5px 0px;
+}
+
+.keysContainer > ul > li {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: ;
+    width: 100%;
+    gap: 2px;
+}
+.keysContainer > ul > li > button {
+    font-family: cinzel, verdana;
+    font-size: 1em;
+    width: 100%;
+    padding: 4px;
+    border: none;
+    cursor: pointer;
+    background-color: #303841;
+    color: white;
+}
+
+.keysContainer > ul > li > button:hover {
+    text-decoration: underline;
+}
+
+.keysContainer ul li ul {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.keysContainer ul li ul li {
+    list-style: none;
+    width: 80%;
+    margin: 0px 0px 0px auto;
+    border: none;
+
+}
+.keysContainer ul li ul li button {
+    font-family: cinzel, verdana;
+    font-size: 1em;
+    width: 100%;
+    padding: 1px 2px 1px 2px;
+    border: none;
+    cursor: pointer;
+    background-color: #303841;
+    color: white;
+    border-radius: 20px;
+}
+.keysContainer ul li ul li button:hover {
+    text-decoration: underline;
+}

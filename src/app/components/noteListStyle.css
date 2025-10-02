@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+
+.searchSide {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background-color: #22262A;
+    align-items: center;
+    overflow: auto;
+    scrollbar-width:thin;
+    scrollbar-color: #22262A #4F565E;
+    padding-bottom: 1em;
+}
+.searchKeywordMain {
+    position: relative;
+    width: 95%;
+    padding: 5%;;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #4F565E;
+    gap: 1em;
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
+}
+.searchKeywordMain input {
+    position: relative;
+    width: 100%;
+    padding: 10px;
+    font-family: cinzel,verdana;
+    font-weight: 600;
+    font-size: 1.5em;
+    border: 0px;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+
+.searchKeywordMain button {
+    padding: 5px;
+    font-family: cinzel,verdana;
+    font-weight: 600;
+    font-size: 1em;
+    border: 0px;
+    border-radius: 10px;
+    text-align: center;
+    width: 60%;
+    background-color: #22262A;
+    color: white;
+    cursor: pointer;
+}
+
+.searchKeywordMain button:hover {
+    font-weight: bold;
+    color: lightblue;
+}
+
+.tituloKeywd {
+    font-family: cinzel;
+    letter-spacing: 1.5px;
+    font-size: 1.5em;
+}
+
+.notesContainer {
+    position: relative;
+    display: flex;
+    background-color: #4F565E;
+    width: 95%;
+    margin-top: 5%;
+    border-radius: 10px;
+    padding: 15px 5px 15px 5px;
+}
+.notesContainer ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8em;
+    list-style: none;
+    width: 100%;
+}
+
+.notesContainer ul li {
+    display: flex;
+    justify-content: space-between;
+}
+.notesContainer ul li button:nth-child(2) {
+    font-family: cinzel, verdana;
+    font-size: 1em;
+    width: 85%;
+    padding: 4px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #303841;
+    color: white;
+}
+
+.notesContainer ul li button:nth-child(2):hover {
+    text-decoration: underline;    
+}
+
+.notesContainer ul li button:nth-child(1) {
+    /*background-image: url('../../../public/trashcan.svg');
+    background-repeat: no-repeat;
+    background-position:left;*/
+    background: #4F565E url('../../../public/trashcan.svg') no-repeat center center / cover;
+    padding: 5px 14px 5px 10px;
+    border: none;
+    border-radius: 40px;
+    background-color: none;
+    cursor: pointer;
+}
+
+.notesContainer ul li button:nth-child(1):hover {
+    box-shadow: 0px 0px 10px 0px red;
+}

@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+
+@keyframes shadowPulse {
+  from {
+    box-shadow: 0px 3px 25px 0px #4F565E;
+  }
+  to {
+    box-shadow: 0px 3px 50px 0px #4F565E;
+  }
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5vw;
+  background-color: #4F565E;
+  height: 16vh;
+  box-shadow: 0px 3px 25px 0px #4F565E;
+  animation: shadowPulse 3s ease-in-out infinite alternate;
+}
+
+.header h1 {
+  font-family: "cinzel", system-ui;
+  color: white;
+  font-size: 2.5em;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;     
+  height: 44vh;
+  background-color: ;
+}
+
+.main input {
+  font-size: 2.1em;
+  padding: 0.5em;
+  font-family: cinzel, verdana;
+  font-weight: 600;
+  background-color: #B8BBBE;
+  border-radius: 35px;
+  text-align: center;
+}
+
+.main button {
+  font-size: 1.2em;
+  padding: 0.5em 1em 0.5em 1em;
+  font-family: cinzel, verdana;
+  font-weight: 600;
+  cursor: pointer;
+  background-color: #4F565E;
+  color: white;
+  margin-top: 2em;
+  border-radius: 20px;
+  border: 0px;
+}
+
+.main button:hover {
+  transform: scale(1.02);
+}
+
+.keyContainer {
+
+  height: auto;
+  background-color: #4F565E;
+  padding-bottom: 4.3em;
+}
+
+.keyContainer h2 {
+  margin:0px auto 1.5em auto ;
+  text-align: center;
+  padding: 10px 0px 5px 0px;
+  font-family: cinzel, verdana;
+  font-weight: 400;
+  font-size: 1.5em;
+  box-shadow: 0px 0px 20px 0px rgba(34,38,42,0.3);
+}
+
+.keyContainer ul {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  gap: 1em;
+
+}
+
+.keyContainer ul li button {
+  font-size: 1.2em;
+  padding: 0.5em 1em 0.5em 1em;
+  font-family: cinzel, verdana;
+  font-weight: 400;
+  cursor: pointer;
+  background-color: #22262A;
+  color: white;
+  border-radius: 20px;
+  border: 0px;
+}
+
+.keyContainer ul li button:hover {
+  transform: scale(1.02);
+}
+.keyContainer ul li button:active {
+  background-color: black;
+}
